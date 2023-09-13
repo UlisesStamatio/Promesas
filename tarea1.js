@@ -4,7 +4,7 @@ const randomNumber = () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve(Math.floor(Math.random() * 100));
-        }, 1000);
+        }, 2000);
     });
 }
 
@@ -12,7 +12,7 @@ const pow = (random) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve(Math.pow(random, 2));
-        }, 1000);
+        }, 3000);
     });
 }
 
